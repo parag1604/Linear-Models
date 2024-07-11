@@ -60,3 +60,11 @@ def main(kernel_mode: bool = False) -> None:
     plot_fit(
         X_test, y_test, model,
         kernel_mode=kernel_mode, partition='test')
+
+
+if __name__ == '__main__':
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == 'True':
+        main(kernel_mode=True)
+    else:
+        main(kernel_mode=False)

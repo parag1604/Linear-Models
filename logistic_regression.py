@@ -142,3 +142,7 @@ def main() -> None:
     plot_decision_boundary(model, X_train, y_train, 'train')
     plot_decision_boundary(model, X_val, y_val, 'val')
     plot_decision_boundary(model, X_test, y_test, 'test')
+
+
+if __name__ == '__main__':
+    main()

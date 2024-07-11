@@ -34,7 +34,7 @@ class LinearModel:
         '''
         Forward pass.
         '''
-        self.forward(x)
+        return self.forward(x)
     
     def __repr__(self) -> str:
         '''
