@@ -11,7 +11,7 @@ Code (from scratch) for Linear Models with:
 
 ## Theory
 
-Please note that the theory corresponding to the codes are hosted on [[link]]
+Please note that the theory corresponding to the codes is hosted on [[link]]
 
 ## Python Environment Setup
 
@@ -19,13 +19,13 @@ This code is implemented from scratch and doesn't have a lot of requirements. Ju
 
 ## Linear Regression (OLS)
 
-Execute the following to run the Ordinary Least Squares version of Linear Regression
+Execute the following to run the Ordinary Least Squares version of Linear Regression.
 
 ```bash
 python linear_regression_exact.py
 ```
 
-After training: you should get plots like the following:
+After training, you should get plots like the following:
 Train             |  &nbsp;Test&nbsp;
 :-------------------------:|:-------------------------:
 ![A plot showing how the model fits the data on the train set](static/ols_1.png "OLS Train Fit")  |  ![A plot showing how the model fits the data on the test set](static/ols_2.png "OLS Test Fit")
@@ -46,7 +46,7 @@ Execute the following to run the Ordinary Least Squares version of Polynomial Re
 python linear_regression_exact.py True
 ```
 
-After training: you should get plots like the following:
+After training, you should get plots like the following:
 Train             |  &nbsp;Test&nbsp;
 :-------------------------:|:-------------------------:
 ![A plot showing how the model fits the data on the train set](static/ols_3.png "Kernel OLS Train Fit")  |  ![A plot showing how the model fits the data on the test set](static/ols_4.png "Kernel OLS Test Fit")
@@ -59,15 +59,15 @@ Train loss: 0.1202, metric: 0.2763
 Test loss: 0.1307, metric: 0.2885
 ```
 
-## Linear Regression with Stochiastic Gradient Descent
+## Linear Regression with Stochastic Gradient Descent
 
-Execute the following to run the simple version of Linear Regression using stochiastic gradient descent (to get rid of the expensive matrix inverse operation in OLS):
+Execute the following to run the simple version of Linear Regression using SGD (to get rid of the expensive matrix inverse operation in OLS):
 
 ```bash
 python linear_regression_sgd.py
 ```
 
-After training: you should get plots like the following:
+After training, you should get plots like the following:
 Train             |  &nbsp;&nbsp;Val&nbsp;&nbsp;          |  &nbsp;Test&nbsp;
 :----:|:----:|:----:
 ![A plot showing how the model fits the data on the train set](static/sgd_6.png "SGD Train Fit")  |  ![A plot showing how the model fits the data on the validation set](static/sgd_7.png "SGD Valid Fit") |  ![A plot showing how the model fits the data on the test set](static/sgd_8.png "SGD Test Fit")
@@ -94,13 +94,13 @@ Train set performance: MSE 2.0600,  MAE 1.2260
 Test set performance: MSE 1.9524,  MAE 1.1995
 ```
 
-and alternatively the following for the kernelized version:
+And alternatively the following for the kernelized version:
 
 ```bash
 python linear_regression_sgd.py True
 ```
 
-After training: you should get plots like the following:
+After training, you should get plots like the following:
 Train             |  &nbsp;&nbsp;Val&nbsp;&nbsp;          |  &nbsp;Test&nbsp;
 :----:|:----:|:----:
 ![A plot showing how the model fits the data on the train set](static/sgd_1.png "Kernel SGD Train Fit")  |  ![A plot showing how the model fits the data on the validation set](static/sgd_2.png "Kernel SGD Valid Fit") |  ![A plot showing how the model fits the data on the test set](static/sgd_3.png "Kernel SGD Test Fit")
@@ -135,7 +135,7 @@ Execute the following to run the code for Logistic Regression
 python logistic_regression.py
 ```
 
-After training: you should get plots like the following:
+After training, you should get plots like the following:
 Train             |  &nbsp;&nbsp;Val&nbsp;&nbsp;          |  &nbsp;Test&nbsp;
 :----:|:----:|:----:
 ![A plot showing how the model fits the data on the train set](static/lr_3.png "Logistic Regression Train Fit")  |  ![A plot showing how the model fits the data on the validation set](static/lr_4.png "Logistic Regression Valid Fit") |  ![A plot showing how the model fits the data on the test set](static/lr_5.png "Logistic Regression Test Fit")
