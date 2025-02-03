@@ -11,7 +11,7 @@ Code (from scratch) for Linear Models with:
 
 ## Theory
 
-Please note that the theory corresponding to the codes is hosted on [[link]]
+Please note that the theory corresponding to the codes is hosted on this [page](https://parag1604.github.io/notes/Machine-Learning/Linear-Models)
 
 ## Python Environment Setup
 
